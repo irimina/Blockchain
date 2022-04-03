@@ -32,7 +32,6 @@ class Blockchain(object):
         return self.chain[-1]
 
 # Add a transaction with relevant info to the 'blockpool'
-
     def new_transaction(self, sender, recipient, amount):
         transaction = {
             'sender': sender,

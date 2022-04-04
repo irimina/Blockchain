@@ -1,9 +1,17 @@
 #Blockhain project
 
+# this package is for encryption
 import hashlib
+
+# this one is for formatting our blocks
 import json
+
+#this is needed for each block's timestamp
 from time import time
+
+# simulate a unique number for the proof of work 
 import random
+
 
 class Blockchain(object):
     def __init__(self):

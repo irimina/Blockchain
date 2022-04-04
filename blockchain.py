@@ -56,7 +56,7 @@ proof1 = '0000' + str(random.randint(1,21000000))
 proof2 = '0000' + str(random.randint(1,21000000))
 proof3 = '0000' + str(random.randint(1,21000000))
 
-# HW Task: Add three blocks to the chain that record three transactions to three people. Print the chain at each stage.
+# Async Task: Add three blocks to the chain that record three transactions to three people. Print the chain at each stage.
 
 #Add your code below this line
 ####################################################

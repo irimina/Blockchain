@@ -56,7 +56,7 @@ proof1 = '0000' + str(random.randint(1,21000000))
 proof2 = '0000' + str(random.randint(1,21000000))
 proof3 = '0000' + str(random.randint(1,21000000))
 
-# Async Task: Add three blocks to the chain that record three transactions to three people. Print the chain at each stage.
+# Async Task: Initialize an empty chain and create three blocks that record three transactions. Display the blockchain for each transaction. 
 
 #Add your code below this line
 ####################################################
